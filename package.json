@@ -1,0 +1,30 @@
+{
+  "name": "test-tg-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./TutorialBot.ts",
+    "dev": "ts-node-dev ./bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzaytsev/test-tg-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nzaytsev/test-tg-bot/issues"
+  },
+  "homepage": "https://github.com/nzaytsev/test-tg-bot#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  }
+}
